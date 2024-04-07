@@ -1,1 +1,1 @@
-array.push(newArray);
+nextValue
