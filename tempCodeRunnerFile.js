@@ -1,1 +1,1 @@
-nextValue
+    let newArray = BigInt(array) + 1n;
