@@ -15,7 +15,7 @@
 // Explanation: There is no x where 3x = (-1).
 var isPowerOfThree = function (n) {
     // Check if n is greater than 0 and if it's a power of three
-    return n > 0 && Math.log10(n) / Math.log10(4) % 1 === 0;
+    return n > 0 && Math.log10(n) / Math.log10(3) % 1 === 0;
 };
 
 console.log(isPowerOfThree(1));  // Output: true
