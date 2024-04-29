@@ -21,7 +21,7 @@ var isThree = function (n) {
             countDivisors++
         }
     }
-    if(countDivisors===3)return true
+    if (countDivisors === 3) return true
     return false
 };
 console.log(isThree(4))
